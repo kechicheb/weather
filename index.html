@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Render All Element Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Linking BoxIcon for Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- File Css Style -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="perant">
+      <div class="search">
+        <input placeholder="Enter city name" type="text" class="search-bar" />
+        <button><i class="bx bx-search-alt-2"></i></button>
+      </div>
+      <div class="error">
+        <h3>Something went wrong</h3>
+      </div>
+      <div class="pending">
+        <h3>Getting weather details...</h3>
+      </div>
+      <div class="card">
+        <h2>Weather App</h2>
+        <div class="weather">
+          <div class="icon">
+            <img src="" alt="Weather Icon" />
+          </div>
+          <div class="temp">
+            <span class="degree">40</span> <span>°</span> <span>C</span>
+          </div>
+          <div class="description">Cloudy</div>
+          <h4 class="city"><i class="bx bx-map"></i> <span></span></h4>
+          <div class="row">
+            <div class="humidity">
+              <i class="bx bxs-droplet-half"></i>
+              <div class="text">
+                <span>60%</span>
+                <span>Humidity </span>
+              </div>
+            </div>
+            <div class="wind">
+              <i class="bx bx-wind"></i>
+              <div class="text">
+                <span>6.2km/h</span>
+                <span>Wind speed </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
