@@ -18,6 +18,10 @@ html {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Small */
@@ -45,12 +49,7 @@ html {
 body {
   background-color: var(--main-color);
 }
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .perant {
   max-width: 500px;
   flex: 1;
