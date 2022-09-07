@@ -27,7 +27,7 @@ const getData = (apiLink, inputV) => {
 };
 btn.onclick = function () {
   let inputV = input.value;
-  let api = `https://api.openweathermap.org/data/2.5/weather?q=${inputV}&units=metric&appid=3265874a2c77ae4a04bb96236a642d2f`;
+  let api = `https://api.openweathermap.org/data/2.5/weather?q=${inputV}&units=metric&appid=a06f5900e547cae3c979a6614935d7e6`;
   input.value = "";
   document.querySelector(".card").style.display = "none";
   document.querySelector(".error").style.display = "none";
